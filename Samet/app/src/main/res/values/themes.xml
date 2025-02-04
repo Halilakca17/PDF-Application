@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema uygulamanın tümüne uygulanacak. AppCompat teması kullanalım -->
+    <style name="Theme.Samet" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Burada diğer tema özelleştirmelerini yapabilirsiniz -->
+    </style>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/anasayfabackground">
+
+    <!-- Başlık -->
+
+    <!-- PDF Ekle Butonu -->
+
+    <TextView
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="270dp"
+        android:gravity="center"
+        android:layout_marginTop="17dp"
+        android:padding="16dp"
+        android:text="PDF Paylaşma Uygulamasına Hoş Geldiniz!"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAddPdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PDF Ekle"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="16dp"
+        android:minHeight="56dp"/>
+
+    <!-- PDFleri Görüntüle Butonu -->
+    <Button
+        android:id="@+id/btnViewPdfs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PDFleri Görüntüle"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:minHeight="56dp"/>
+
+    <!-- Hesabım Butonu -->
+    <Button
+        android:id="@+id/btnAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hesabım"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="24dp"
+        android:minHeight="56dp"/>
+</LinearLayout>

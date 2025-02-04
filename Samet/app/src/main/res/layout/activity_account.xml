@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/anasayfabackground"> <!-- Açık gri arka plan -->
+
+    <!-- Başlık -->
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kullanıcı Adı:"
+        android:textColor="#212121"
+        android:background="@drawable/edittext_background"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold"/>
+
+    <!-- Kullanıcı Adı EditText -->
+    <EditText
+        android:id="@+id/etNewUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yeni kullanıcı adı"
+        android:textColor="#212121"
+        android:background="@drawable/edittext_background"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:minHeight="48dp"/>
+
+    <!-- Şifre EditText -->
+    <EditText
+        android:id="@+id/etNewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yeni şifre"
+        android:inputType="textPassword"
+        android:textColor="#212121"
+        android:background="@drawable/edittext_background"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:minHeight="48dp"/>
+
+    <!-- Kullanıcı Adı Değiştir Butonu -->
+    <Button
+        android:id="@+id/btnChangeUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adı Değiştir"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="16dp"
+        android:minHeight="48dp"/>
+
+    <!-- Şifreyi Değiştir Butonu -->
+    <Button
+        android:id="@+id/btnChangePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Şifreyi Değiştir"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="16dp"
+        android:minHeight="48dp"/>
+
+    <!-- Hesabı Sil Butonu -->
+    <Button
+        android:id="@+id/btnDeleteAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hesabımı Sil"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="20dp"
+        android:minHeight="48dp"/>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Dosya Erişim İzni (PDF Seçmek ve Açmak İçin) -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Samet"
+        tools:targetApi="31">
+
+        <!-- MainActivity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Samet">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- HomeActivity -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Samet">
+        </activity>
+
+        <!-- RegisterActivity -->
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Samet">
+        </activity>
+
+        <!-- PDF List Activity (Yeni Eklendi) -->
+        <activity
+            android:name=".PdfListActivity"
+            android:label="PDF Listesi"
+            android:theme="@style/Theme.Samet">
+        </activity>
+
+        <activity
+            android:name=".PdfViewerActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Samet">
+        </activity>
+        <activity
+            android:name=".AccountActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Samet">
+        </activity>
+
+
+
+    </application>
+
+</manifest>

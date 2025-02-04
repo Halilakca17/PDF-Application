@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:drawable="@drawable/background" /> <!-- Görsel arka plan -->
+        <item>
+            <shape>
+                <solid android:color="#80000000" /> <!-- Şeffaf siyah renk üstünde görsel -->
+            </shape>
+        </item>
+    </layer-list>
+
+</selector>
